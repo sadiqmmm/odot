@@ -5,7 +5,7 @@
  require 'rspec/rails' # below
  require 'rspec/autorun'
  require 'capybara/rspec'
-
+```
 ## bundle binstubs rspec-core
 
 ## Remove the test, no longer need
