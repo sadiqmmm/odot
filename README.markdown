@@ -1,11 +1,12 @@
-rails g rspec:install
+* rails g rspec:install
 
-Add this to spec/spec_helper
-require 'rspec/rails' # below
-require 'rspec/autorun'
-require 'capybara/rspec'
+## Add this to spec/spec_helper
+```ruby
+ require 'rspec/rails' # below
+ require 'rspec/autorun'
+ require 'capybara/rspec'
 
-bundle binstubs rspec-core
+## bundle binstubs rspec-core
 
-# Remove the test, no longer need
-  git rm -rf test 
+## Remove the test, no longer need
+*  git rm -rf test 
