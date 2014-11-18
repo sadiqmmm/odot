@@ -5,7 +5,7 @@ class TodoItemsController < ApplicationController
 
   def new
   	@todo_list = TodoList.find(params[:todo_list_id])
-  	@todo_item = @todo_list.todo_item.new
+  	@todo_item = @todo_list.todo_items.new
   end
 
   def create
